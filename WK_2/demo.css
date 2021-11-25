@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+ol {
+  line-height: 0;
+}
+.profile_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1, footer, title {
+    text-align: center;
+}
+
+details {
+  text-align: left;
+}
+
+.images {
+  width: 200px;
+  height: 150px;
+}
