@@ -1,10 +1,10 @@
-// Define a function to display error message
+// Define function to display error message
 function printError(elemId, hintMsg) {
   document.getElementById(elemId).innerHTML = hintMsg
 }
 
 function validateForm() {
-  // Retrieving the values of form elements 
+  // Retrieving the form value
   var name = document.contactForm.name.value
   var email = document.contactForm.email.value
   var mobile = document.contactForm.mobile.value
@@ -19,10 +19,10 @@ function validateForm() {
       }
   }
   
-// Defining error variables with a default value
+// Define error variables with a default value
   var nameErr = emailErr = mobileErr = countryErr = genderErr = true;
   
-  // Validate name
+  
   if(name == "") {
       printError("nameErr", "Please enter your name")
   } else {
@@ -31,7 +31,7 @@ function validateForm() {
       }
   }
   
-  // Validate email address
+  
   if(email == "") {
       printError("emailErr", "Please enter your email address");
   } else {
@@ -40,7 +40,6 @@ function validateForm() {
       }
   
   
-  // Validate mobile number
   if(mobile == "") {
       printError("mobileErr", "Please enter your mobile number");
   } else {
@@ -49,7 +48,6 @@ function validateForm() {
       }
   
   
-  // Validate country
   if(country == "Select") {
       printError("countryErr", "Please select your country");
   } else {
@@ -57,7 +55,6 @@ function validateForm() {
       countryErr = false;
   }
   
-  // Validate gender
   if(gender == "") {
       printError("genderErr", "Please select your gender");
   } else {
