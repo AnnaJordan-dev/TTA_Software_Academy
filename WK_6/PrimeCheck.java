@@ -1,8 +1,9 @@
-// Q.1 Write a java program to check whether number is prime or not a prime number.
+// Q1. Write a java program to check whether number is prime or not a prime number
 
-public class PrimeCheck {
+public class PrimeCheck 
+    {
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
     int num = 51;
     boolean prime = false;
@@ -20,11 +21,11 @@ public class PrimeCheck {
   }
 }
 
-// Q.2 Write a java program to print all number between range 100-500
+// Q2. Write a java program to print all number between range 100-500
 
 
 public class AllNumber
-{
+    {
     public static void main(String[] args)
     {
         for(int i =100; i<=500; i++)
@@ -34,10 +35,10 @@ public class AllNumber
     }
 }
 
-// Q.3 Write a java program to print sum of all number between 1-10
+// Q3. Write a java program to print sum of all number between 1-10
 
 public class SumAll
-{
+    {
     public static void main(String[] args)
     {
         int sum =0;
@@ -49,16 +50,16 @@ public class SumAll
     }
 }
 
-/*Q.4 Write a java program to print all numbers in reverse order (e.g 10 9 8 7 6 5 4 3 2 1)*/
+//Q4. Write a java program to print all numbers in reverse order (e.g 10 9 8 7 6 5 4 3 2 1)
 
 public class Reverse
-{
+    {
     public static void main(String[] args)
     {
         for(int i = 10; i>=0; i--)
+          
         {
             System.out.println( " " + i );
-          
         }
     }
 }
